@@ -168,7 +168,7 @@ public class VarastoTest {
         double tilaa = varasto.paljonkoMahtuu();
         
         String toString = varasto.toString();
-        String vertailu = "saldo = " + saldo + ", viel tilaa " + tilaa;
+        String vertailu = "saldo = " + saldo + ", vielä tilaa " + tilaa;
         assertEquals(toString, vertailu);
     }
 }
